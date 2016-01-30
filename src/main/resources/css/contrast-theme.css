@@ -1,0 +1,67 @@
+#header .aui-header {
+    background-color: #000;
+    color: #fff;
+}
+
+.aui-header .aui-header-logo a {
+    height: 80px;
+}
+
+.aui-header a {
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.aui-header .aui-header-logo-device {
+    height: 64px;
+}
+
+.aui-header .aui-dropdown2-trigger,
+#header .aui-header .aui-nav-imagelink,
+#header .aui-header a {
+    transition: .3s ease-in background-color, .3s ease-in color;
+}
+
+.aui-header .aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):after {
+    transition: .3s ease-in border-color;
+}
+
+.aui-header .aui-dropdown2-trigger:hover,
+.aui-header .aui-dropdown2-trigger.active,
+#header .aui-header .aui-nav-link.active,
+#header .aui-header .aui-nav-imagelink.active,
+#header .aui-header .aui-nav-imagelink:focus,
+#header .aui-header .aui-nav-imagelink:hover,
+#header .aui-header a:focus,
+#header .aui-header a:hover,
+#header .aui-header a:active {
+    background-color: #fff;
+    color: #000;
+}
+
+#logo a:focus,
+#logo a:hover,
+#logo a:active {
+    background-color: #000;
+    color: #fff;
+}
+
+.aui-header .aui-dropdown2-trigger:hover:not(.aui-dropdown2-trigger-arrowless):after,
+.aui-header .aui-dropdown2-trigger.active:not(.aui-dropdown2-trigger-arrowless):after {
+    border-top-color: #000;
+}
+
+#notifications-anchor {
+    padding-top: 30px;
+    padding-bottom: 37px;
+}
+
+.aui-header .aui-quicksearch:after {
+    margin-top: 30px;
+}
+
+.aui-header .aui-quicksearch input[type='text'] {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #fff;
+}

@@ -1,0 +1,17 @@
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <vendor name="Max Walsch" url="http://maxikg.de/"/>
+        <param name="plugin-icon">images/pluginIcon.png</param>
+        <param name="plugin-logo">images/pluginLogo.png</param>
+    </plugin-info>
+
+    <theme key="contrast" name="Contrast Theme" class="com.atlassian.confluence.themes.BasicTheme">
+        <param name="includeClassicStyles" value="false"/>
+        <resource type="download" name="default-theme.css" location="/includes/css/default-theme.css">
+            <param name="source" value="webContext"/>
+        </resource>
+        <resource type="download" name="contrast-theme.css" location="css/contrast-theme.css"/>
+    </theme>
+</atlassian-plugin>
